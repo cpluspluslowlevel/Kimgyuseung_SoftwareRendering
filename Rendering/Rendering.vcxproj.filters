@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Window.cpp" />
+    <ClCompile Include="Renderer.cpp" />
+    <ClCompile Include="ASE.cpp">
+      <Filter>Library</Filter>
+    </ClCompile>
+    <ClCompile Include="Mathematics.cpp">
+      <Filter>Library</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility.cpp">
+      <Filter>Library</Filter>
+    </ClCompile>
+    <ClCompile Include="Runable.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Window.h" />
+    <ClInclude Include="Renderer.h" />
+    <ClInclude Include="ASE.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="Exporter.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="Mathematics.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.h">
+      <Filter>Library</Filter>
+    </ClInclude>
+    <ClInclude Include="Runable.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Library">
+      <UniqueIdentifier>{92f1c976-d75e-48f0-b12a-f441b311cc19}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
